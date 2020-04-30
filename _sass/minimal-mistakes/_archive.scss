@@ -90,6 +90,14 @@
   border-radius: $border-radius;
   overflow: hidden;
 
+  @include breakpoint($small) {
+    max-height: 200px;
+  }
+
+  @include breakpoint($medium) {
+    max-height: 200px;
+  }
+
   img {
     width: 100%;
   }

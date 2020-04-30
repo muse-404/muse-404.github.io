@@ -1,6 +1,8 @@
 ---
-title: "About"
+title: "About Me"
 permalink: /about/
 author_profile: true
 ---
-About me page <to be filled>
+
+得閒寫下，搵下生活靈感
+

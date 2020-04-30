@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en-US"
-title                    : "muse 404"
+title                    : "muse404"
 title_separator          : "-"
-subtitle                 : "Find yours"
-name                     : "Zeni"
-description              : "github version of my blog"
+subtitle                 : "Find your muse"
+name                     : "zeni - 星尼"
+description              : "github version of muse404"
 url                      : https://muse-404.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : muse-404/muse-404.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -28,7 +28,7 @@ teaser                   : "/assets/img/headers/cteaser.jpg"
 logo                     : #"/assets/images/logo.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 100
+words_per_minute         : 80
 comments:
   provider               : disqus # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
@@ -69,8 +69,8 @@ yandex_site_verification :
 naver_site_verification  :
 
 # Social Sharing
-twitter:
-  username               : muse-404
+# twitter:
+#  username               : muse-404
 facebook:
   username               :
   app_id                 :
@@ -80,8 +80,8 @@ og_image                 : # Open Graph/Twitter default site image
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : Person # Person or Organization (defaults to Person)
-  name                   : Muse-404 # If the user or organization name differs from the site's name
-  links                  : https://www.linkedin.com/in/muse-404/ # An array of links to social media profiles
+  name                   : zeni # If the user or organization name differs from the site's name
+  links                  : https://muse-404.github.io # An array of links to social media profiles
 
 # Analytics
 analytics:
@@ -93,24 +93,24 @@ analytics:
 
 # Site Author
 author:
-  name             : "Muse-404"
+  name             : "zeni - 星尼"
   avatar           : "/assets/img/profile/zeni.png"
-  bio              : "Random Gal"
+  bio              : "finding ideas and way out of this suffocated life"
   location         : "Hong Kong"
-  email            : "muse-404@gmail.com"
+#  email            : "zeni.chuu@gmail.com"
   links:
   #  - label: "Email"
   #    icon: "fas fa-fw fa-envelope-square"
   #    url: mailto:muse-404@gmail.com
-  #  - label: "Website"
-  #    icon: "fas fa-fw fa-link"
-  #    url: "https://muse-404.github.io"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://muse-404.github.io"
 #    - label: "Linkedin"
 #      icon: "fab fa-fw fa-linkedin"
 #      url: "https://www.linkedin.com/in/muse-404/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/muse-404"
+#    - label: "Twitter"
+#      icon: "fab fa-fw fa-twitter-square"
+#      url: "https://twitter.com/muse-404"
    # - label: "Facebook"
    #   icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -127,11 +127,11 @@ footer:
  #   - label: "Linkedin"
  #     icon: "fab fa-fw fa-linkedin"
  #     url: "https://www.linkedin.com/in/muse-404/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/muse-404"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+#    - label: "Twitter"
+#      icon: "fab fa-fw fa-twitter-square"
+#      url: "https://twitter.com/muse-404"
+#    - label: "Facebook"
+#      icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"

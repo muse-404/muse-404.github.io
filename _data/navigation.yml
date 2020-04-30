@@ -10,7 +10,7 @@ main:
     url: /tags/
 #  - title: "Categories"
 #    url: /categories/
-  - title: "About"
+  - title: "About Me"
     url: /about/
   # - title: "Sample Collections"
   #   url: /collection-archive/
