@@ -2,6 +2,8 @@
 *~
 *.sw[p_]
 *.tar
+debug.md
+tmp/*
 
 # Sublime Text
 *.sublime-project

@@ -1,7 +1,7 @@
 ---
 layout: splash
 author_profile: false
-title: "Find you muse"
+title: "隨心寫一寫，定時回望"
 entries_layout: grid
 header:
   overlay_color: "#000"
@@ -10,7 +10,7 @@ header:
   actions:
     - label: "View my latest posts"
       url: "/year-archive/"
-excerpt: "Here is for excerpt"
+excerpt: "Excerpt for the title page"
 ---
 <div class="feature__wrapper">
   {% for post in site.posts limit:3 %}
@@ -37,7 +37,7 @@ excerpt: "Here is for excerpt"
         </a>
           <div class="archive__item-excerpt">
             {% assign factor = title.size | times: 2 %}
-            {% assign size = 500 | minus: factor %}
+            {% assign size = 300 | minus: factor %}
             <p>{{ post.excerpt | markdownify | strip_html | truncate: size }}</p>
           </div>
           <p><a href="{{ post.url | relative_url }}" class="btn btn--primary">Read More</a></p>
