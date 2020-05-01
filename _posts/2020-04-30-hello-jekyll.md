@@ -8,6 +8,10 @@ category: blog
 tags: [blog, tech, jekyll, ruby]
 header:
   teaser: "assets/img/posts/teaser/20200430_jekyll.jpg"
+toc: true
+toc_sticky: true
+toc_label: "Content"
+excerpt: "關於為什麼會無事找事做，換一換新東西的經歷"
 ---
 
 事緣在之前一直也想打理一下blogger上的介面，但是發現限制實在是太大了。與其辛苦更改不如轉用其他的CMS。最後經過一番研究和整理，就是現在這個Jekyll＋GitHub的網站了。
@@ -39,7 +43,9 @@ Markdown除了寫文章方便外，用來制作電子書也是很好的。遲些
 
 這個list寫完也覺得複雜呢，但沒法，自己一手一腳架設就是這回事。有import module可以快速導入也很不錯了。所以你在這網站看到舊的文章，也是用import轉換的，有些html在excerpt中會出現亂碼，但是看全文的不會，不是完美主義者的我就算了。這個網站的定位是一半proof of concept吧～哈哈
 
-舊的blogspot文也有很多限制，例如很多也沒有配圖。所以有時會看到重覆的配圖呢～
+如果不想做自己的站，只想真的試一試Jekyll的話，簡單的在我/別人github裡clone了再build就行了。其實不用做太多。
+
+舊的blogspot文轉換時也有很多限制，例如很多也沒有配圖。所以有時會看到重覆的配圖～
 
 # 後話
 
@@ -51,4 +57,6 @@ Markdown除了寫文章方便外，用來制作電子書也是很好的。遲些
 [^1]: [Jekyll Theme - Minimal Mistake](https://mmistakes.github.io/minimal-mistakes/)
 
 [Jekyll](https://jekyllrb.com/)
+
+
 
